@@ -5,22 +5,22 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github koj-lang/koj))
 
-(authors "Author Name")
+(authors "Tom Béné")
 
-(maintainers "Maintainer Name")
+(maintainers "Tom Béné")
 
-(license LICENSE)
+(license MIT)
 
-(documentation https://url/to/documentation)
+(documentation https://www.github.com/koj-lang/koj#readme)
 
 (package
  (name koj)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "Compiler for the Koj language")
+ (description "This is a compiler for the Koj programming language.")
  (depends ocaml dune)
  (tags
-  (topics "to describe" your project)))
+  (compiler "programming language")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
