@@ -1,0 +1,4 @@
+(executable
+ (public_name koj)
+ (name main)
+ (libraries koj))
