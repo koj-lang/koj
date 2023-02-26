@@ -15,6 +15,8 @@
 
 (documentation https://www.github.com/koj-lang/koj#readme)
 
+(using menhir 2.1)
+
 (package
  (name koj)
  (synopsis "Compiler for the Koj language")
